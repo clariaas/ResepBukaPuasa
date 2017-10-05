@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="trainingcompany.vergieal.resepbukapuasa.TamilanDetil">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/daging"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Bahan-Bahan :"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+
+        android:text="•	300 gr daging giling
+•	250 ml air
+•	1 batang daun bawang, diiris miring
+•	1 buah bawang bombay, diiris panjang tebal
+•	2 buah cabai hijau, dipotong bulat 1cm
+•	2 sdm saus tiram
+•	1 sdm saus tomat
+•	1/2 sdm kecap manis
+•	2 sdm margarin untuk menumis
+•	2 sdt lada hitam
+•	1/2 sdt gula pasir
+•	1 sdt tepung sagu  ditambahkan 1 sdt air
+•	1/4 sdt garam
+" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Cara Membuat :"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+
+        android:text="1.	Masukkan daging giling dan garam  ke dalam wadah kemudian aduk rata. Bentuk bola-bola sesuai selera. Sisihkan.
+2.	Panaskan margarin diatas wajan dengan api sedang lalu masukkan bola daging tadi tumis hingga berubah warna.
+3.	Masukkan cabai hijau dan bawang bombay tumis hingga harum.
+4.	Tambahkan saus tomas, lada hitam, saus tiram, gula dan garam. Aduk rata
+5.	Tuang air kedalam bola daging. Masak diatas api sedang higga bumbu meresap semua.
+6.	Setelah bumbu meresap masukkan larutan tepung sagu. Masak hingga mengental.
+7.	Terakhir masukkan daun bawang, aduk rata. Angkat dan bola daging lada hitam siap disajikan.
+" />
+</LinearLayout>
