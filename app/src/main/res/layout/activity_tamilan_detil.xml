@@ -1,72 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="trainingcompany.vergieal.resepbukapuasa.TamilanDetil">
 
-    <ImageView
-        android:id="@+id/gambar"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/daging"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.lenovo.infomakan.TampilanDetil">
 
-        />
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/daging"
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Bahan-Bahan :"
-        android:textAlignment="center" />
+            />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Bahan-Bahan :"
+            android:textAlignment="center" />
 
+        <TextView
+            android:id="@+id/resep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
 
-        android:text="•	300 gr daging giling
-•	250 ml air
-•	1 batang daun bawang, diiris miring
-•	1 buah bawang bombay, diiris panjang tebal
-•	2 buah cabai hijau, dipotong bulat 1cm
-•	2 sdm saus tiram
-•	1 sdm saus tomat
-•	1/2 sdm kecap manis
-•	2 sdm margarin untuk menumis
-•	2 sdt lada hitam
-•	1/2 sdt gula pasir
-•	1 sdt tepung sagu  ditambahkan 1 sdt air
-•	1/4 sdt garam
-" />
+            android:layout_marginRight="10dp"
+
+            android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat." />
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Cara Membuat :"
-        android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Cara Membuat :"
+            android:textAlignment="center" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        <TextView
+            android:id="@+id/proced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
 
 
-        android:text="1.	Masukkan daging giling dan garam  ke dalam wadah kemudian aduk rata. Bentuk bola-bola sesuai selera. Sisihkan.
-2.	Panaskan margarin diatas wajan dengan api sedang lalu masukkan bola daging tadi tumis hingga berubah warna.
-3.	Masukkan cabai hijau dan bawang bombay tumis hingga harum.
-4.	Tambahkan saus tomas, lada hitam, saus tiram, gula dan garam. Aduk rata
-5.	Tuang air kedalam bola daging. Masak diatas api sedang higga bumbu meresap semua.
-6.	Setelah bumbu meresap masukkan larutan tepung sagu. Masak hingga mengental.
-7.	Terakhir masukkan daun bawang, aduk rata. Angkat dan bola daging lada hitam siap disajikan.
-" />
-</LinearLayout>
+            android:layout_marginRight="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+
+
+    </LinearLayout>
+
+</ScrollView>
